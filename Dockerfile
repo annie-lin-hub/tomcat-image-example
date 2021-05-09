@@ -3,7 +3,9 @@ MAINTAINER Annielin
 
 RUN yum install -y wget
 
-RUN cd /
+RUN yum -y update
+
+RUN mkdir /home/annielin/docker-test
 
 ADD jdk-8u152-linux-x64.tar.gz /
 
