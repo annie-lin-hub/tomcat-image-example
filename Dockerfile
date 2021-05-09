@@ -12,5 +12,4 @@ RUN tar zxvf apache-tomcat-9.0.45.tar.gz
 
 ENV JAVA_HOME=/jdk1.8.0_152
 ENV PATH=$PATH:/jdk1.8.0_152/bin
-cMD ["/apache-tomcat-9.0.45/bin/catalina.sh", "run"]
-
+CMD ["/apache-tomcat-9.0.45/bin/catalina.sh", "run"]
