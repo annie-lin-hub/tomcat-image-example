@@ -3,9 +3,7 @@ MAINTAINER Annielin
 
 RUN yum install -y wget
 
-RUN yum -y update
-
-RUN wget https://download.oracle.com/otn/java/jdk/8u152-b16/aa0333dd3019491ca4f6ddbe78cdb6d0/jdk-8u152-linux-x64.tar.gz?AuthParam=1620494652_14dc4cb453a4ed436d2d6cf38dce7805
+RUN wget https://download.oracle.com/otn/java/jdk/8u152-b16/aa0333dd3019491ca4f6ddbe78cdb6d0/jdk-8u152-linux-x64.tar.gz
 
 RUN tar zxvf jdk-8u152-linux-x64.tar.gz
 
